@@ -3,6 +3,9 @@
 Versão Android (React Native + Expo + TypeScript) do painel administrativo do Letis Wedding.
 A lista pública continua no site: https://letis-wedding.netlify.app/l/{uid}
 
+## Dev account
+fernandomk6dev
+
 ## Configuração
 
 1. Copie `.env.example` para `.env` e preencha:

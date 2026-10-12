@@ -276,7 +276,7 @@ const ProductTable = ({
     const status = getProductStatus(product);
     const edit: Action = { key: 'edit', icon: 'edit', label: 'Editar', onPress: () => onEdit(product) };
     const remove: Action = { key: 'delete', icon: 'delete', label: 'Excluir', onPress: () => openDialog('delete', product) };
-    const assign: Action = { key: 'assign', icon: 'donor', label: 'Adicionar doador', onPress: () => openDialog('assign', product) };
+    const assign: Action = { key: 'assign', icon: 'donor', label: 'Doador', onPress: () => openDialog('assign', product) };
     const receive: Action = { key: 'receive', icon: 'received', label: 'Recebido', onPress: () => openDialog('receive', product) };
     const transfer: Action = { key: 'transfer', icon: 'transfer', label: 'Transferir', onPress: () => openDialog('transfer', product) };
     const release: Action = { key: 'release', icon: 'release', label: 'Desvincular', onPress: () => openDialog('release', product) };

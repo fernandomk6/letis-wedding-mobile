@@ -17,8 +17,11 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.fernandomk6.letiswedding",
-      "googleServicesFile": "./google-services.json"
+      "package": "com.letiswedding.mobile",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +38,12 @@
       ],
       "expo-dev-client"
     ],
-    "scheme": "letiswedding"
+    "scheme": "letiswedding",
+    "extra": {
+      "eas": {
+        "projectId": "842aaf41-9a3c-405a-b652-e57101915634"
+      }
+    },
+    "owner": "fernandomk6"
   }
 }

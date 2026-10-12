@@ -9,7 +9,7 @@ A lista pública continua no site: https://letis-wedding.netlify.app/l/{uid}
    - `EXPO_PUBLIC_FIREBASE_*`: mesmas chaves do `.env.local` do projeto web
    - `EXPO_PUBLIC_WEB_URL`: `https://letis-wedding.netlify.app`
    - `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID`: Web client ID (OAuth tipo Web) do Firebase/Google Cloud
-2. Firebase Console: adicione um app **Android** com o pacote `com.fernandomk6.letiswedding`,
+2. Firebase Console: adicione um app **Android** com o pacote `com.letiswedding.mobile`,
    baixe o `google-services.json` e coloque na raiz do projeto.
 3. Adicione o SHA-1 (e SHA-256) do keystore do build em Configurações do projeto > app Android
    (`eas credentials` mostra os valores). Sem isso o login com Google falha com `DEVELOPER_ERROR`.
